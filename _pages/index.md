@@ -4,16 +4,19 @@ title: Home
 id: home
 permalink: /
 ---
+Hi, I'm Andreas 👋 <br>
+— Welcome to my digital space.
 
-# Welcome! 🌱
+I've tried holding my output in many iterations online over the years; this one feels the best.
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+<p style="padding: 2em 1em; background: #f5f7ff; border-radius: 8px;">
+Click on <span style="font-weight: 600">[[Your first seed]]</span> to get started on your exploration.
 </p>
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+<h4>[[Work]]</h4>
+<h4>[[Studio]]</h4>
+<h4>[[Writing]]</h4>
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
 
 <strong>Recently updated notes</strong>
 
@@ -21,7 +24,7 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
   {% for note in recent_notes limit: 5 %}
     <li>
-      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+      {{ note.last_modified_at | date: "%Y · %m" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
     </li>
   {% endfor %}
 </ul>
