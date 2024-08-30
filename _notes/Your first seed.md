@@ -1,10 +1,7 @@
 ---
 title: Your first seed
 ---
-
 ## What is this digital garden all about?
-
-## Next steps
 
 This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
 

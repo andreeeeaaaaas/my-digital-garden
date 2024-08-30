@@ -4,21 +4,19 @@ title: Home
 id: home
 permalink: /
 ---
-Hi, I'm Andreas 👋 <br>
+I'm Andreas 👋 <br>
+I've tried holding my output in many iterations online;<br>
+this one feels the best. <br><br>
 — Welcome to my digital space.
+<hr>
 
-I've tried holding my output in many iterations online over the years; this one feels the best.
+<!-- <p style="padding: 2em 1em; background: #f5f7ff; border-radius: 8px;">
+Want to know how to use this site? Click on <span style="font-weight: 600">[[your first seed]]</span> to get started on your exploration
+</p> -->
 
-<p style="padding: 2em 1em; background: #f5f7ff; border-radius: 8px;">
-Click on <span style="font-weight: 600">[[Your first seed]]</span> to get started on your exploration.
-</p>
-
-<h4>[[Work]]</h4>
-<h4>[[Studio]]</h4>
-<h4>[[Writing]]</h4>
-
-
-<strong>Recently updated notes</strong>
+<h2>Work</h2>
+<h2>Studio</h2>
+<h2>Latest notes</h2>
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
@@ -28,9 +26,3 @@ Click on <span style="font-weight: 600">[[Your first seed]]</span> to get starte
     </li>
   {% endfor %}
 </ul>
-
-<style>
-  .wrapper {
-    max-width: 46em;
-  }
-</style>
