@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 I'm Andreas 👋 <br>
-I've tried holding my output in many iterations online;<br>
+I've tried holding my output in many different iterations online;<br>
 this one feels the best. <br><br>
 — Welcome to my digital space.
 <hr>
@@ -15,9 +15,12 @@ Want to know how to use this site? Click on <span style="font-weight: 600">[[you
 </p> -->
 
 <h2>Work</h2>
-<h2>Studio</h2>
-<h2>Latest notes</h2>
+<p>A collection of design, research, and work projects.</p>
 
+<h2>Studio</h2>
+<p>An amalgamation of music, photos, visuals and more.</p>
+
+<h2>Latest notes</h2>
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
   {% for note in recent_notes limit: 5 %}
