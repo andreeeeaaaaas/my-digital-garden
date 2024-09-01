@@ -4,12 +4,6 @@ title: Home
 id: home
 permalink: /
 ---
-I'm Andreas 👋 <br>
-I've tried holding my output in many different iterations online;<br>
-this one feels the best. <br><br>
-— Welcome to my digital space.
-<hr>
-
 <!-- <p style="padding: 2em 1em; background: #f5f7ff; border-radius: 8px;">
 Want to know how to use this site? Click on <span style="font-weight: 600">[[your first seed]]</span> to get started on your exploration
 </p> -->
