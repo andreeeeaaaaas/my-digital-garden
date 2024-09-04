@@ -1,18 +1,20 @@
 ---
-layout: no-footer
-title: About
+layout: page
+title: About me
 permalink: /about
 ---
-# About
+<img src="assets/me.jpeg"/>
 
-<!-- <img src="assets/000005850022.jpg"/> -->
-
-I am a product and service designer with a passion for solving complex problems for users often left behind. In my spare time, I enjoy being in the ocean, various endeavours to become bilingual, and making [[strange music with overly complicated systems]].
+I am a product and service designer with a passion for solving complex problems for users often left behind. In my spare time, I enjoy being in the ocean, various endeavours to become bilingual, playing with [[Ziggy]] and making strange music with overly complicated systems.
 
 ## Experience
 Currently taking part in the NSW Government graduate program as a digital graduate, my learning has been wide-ranging and insightful.
 
-Prior to now, I taught Interactive Product Design at the University of Sydney, as well as designed educational material for the not-for-profit education startup Consent Labs.
+Prior to now, I have:
+- taught Interactive Product Design at the University of Sydney,
+- taught Qualitative Research at the University of Sydney
+- designed educational material for the not-for-profit education startup Consent Labs
+- lead and co-directed an out of hours school care (*great fun, terribly exhausting*)
 
 
 ## More
