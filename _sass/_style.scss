@@ -1,10 +1,11 @@
 $color-primary: hsl(0, 0%, 10%);
 $color-text: hsl(0, 0%, 20%);
 $color-subtext: hsl(0, 0%, 30%);
+$color-muted: hsl(0, 0%, 60%);
 $color-border: hsl(0, 0%, 85%);
 $color-box-background: mix($color-primary, white, 4%);
 $border-radius: 4px;
-$font-family: -apple-system, BlinkMacSystemFont, Public Sans,  Segoe UI, Helvetica,
+$font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
   sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 
 body {
@@ -60,6 +61,10 @@ blockquote {
   }
 }
 
+.muted {
+  color: $color-muted;
+}
+
 hr {
   width: 100%;
   border: 0;
@@ -91,15 +96,18 @@ a {
   text-decoration: none;
   border-bottom: 1px solid $color-border;
   color: $color-primary;
+
   &:hover {
     color: black !important;
     background: #fffaf1;
   }
+
   &.nav-link {
     font-size: 1em;
     border-bottom: none;
     font-weight: 500;
   }
+
   &:after {
     position: relative;
     top: -0.5em;
@@ -107,6 +115,7 @@ a {
     content: "↗";
     color: #aaaaaa;
   }
+
   &.internal-link:after,
   &.nav-link:after,
   &.footnote:after,
@@ -131,18 +140,18 @@ nav {
     "content"
     "side";
 
-  @media (min-width: 700px) {
-    grid-template-columns: 3fr 2fr;
-    grid-template-areas: "content side";
-  }
+  // @media (min-width: 700px) {
+  //   grid-template-columns: 3fr 2fr;
+  //   grid-template-areas: "content side";
+  // }
 }
 
-#notes-entry-container-centred {
-  display: flex;
-  max-width: 40rem;
-  @media (min-width: 700px) {
-  }
-}
+// #notes-entry-container-centred {
+//   display: flex;
+//   max-width: 40rem;
+//   @media (min-width: 700px) {
+//   }
+// }
 
 .backlink-box {
   background: $color-box-background;
@@ -167,3 +176,34 @@ code {
   color: #ccc;
   cursor: help;
 }
+
+/* flexbox */
+flex, .flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.align-baseline {
+  align-items: baseline;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+/* Borders */
+.ba { border: 1px solid $color-border;}
+.bt { border-top: 1px solid $color-border;}
+.br { border-right: 1px solid $color-border;}
+.bb { border-bottom: 1px solid $color-border;}
+.bl { border-left: 1px solid $color-border;}
+
+/* Padding */
+.pa { padding:1rem;}
+.pt { padding-top:1rem;}
+.pr { padding-right:1rem;}
+.pb { padding-bottom:1rem;}
+.pl { padding-left:1rem;}

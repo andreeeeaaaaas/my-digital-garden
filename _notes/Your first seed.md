@@ -1,10 +1,10 @@
 ---
 title: Your first seed
 ---
-## What is this digital garden all about?
+## What on earth is a digital space?
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+I like to think of this space as a reclamation of my own plot on the internet. The idea draws from the popular notion of a [digital garden](https://maggieappleton.com/garden-history); an everexpanding plexus of personal thoughts intertwined with related bits of information.
 
-The easiest way to build your own digital garden based on this template is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+If you would like to recreate something similar, you can achieve similar results using the free, open-source template from Maxime Vaillancourt [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
 
-Go forth, have fun, and learn new something every day! ✌️
+
