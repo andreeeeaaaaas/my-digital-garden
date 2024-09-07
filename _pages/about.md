@@ -5,17 +5,18 @@ permalink: /about
 ---
 <img src="assets/me.jpeg"/>
 
-I am a product and service designer with a passion for solving complex problems for users often left behind. In my spare time, I enjoy being in the ocean, various endeavours to become bilingual, playing with [[Ziggy]] and making strange music with overly complicated systems.
+<p>I am a product designer with a passion for solving complex problems for users often left behind. </p>
+
+In my spare time, I enjoy being in the ocean, various endeavours to become bilingual, playing with [[Ziggy]] and making strange music with overly complicated systems.
 
 ## Experience
 Currently taking part in the NSW Government graduate program as a digital graduate, my learning has been wide-ranging and insightful.
 
 Prior to now, I have:
-- taught Interactive Product Design at the University of Sydney,
-- taught Qualitative Research at the University of Sydney
-- designed educational material for the not-for-profit education startup Consent Labs
+- taught [Interactive Product Design](https://www.sydney.edu.au/units/DECO3200) at the University of Sydney,
+- taught [Qualitative Research](https://www.sydney.edu.au/units/DECO2019) at the University of Sydney
+- designed educational material for the not-for-profit education startup [Consent Labs](https://www.consentlabs.org.au/)
 - lead and co-directed an out of hours school care (*great fun, terribly exhausting*)
-
 
 ## More
 To get a more complete picture of me, explore one of the links below.
@@ -26,8 +27,3 @@ To get a more complete picture of me, explore one of the links below.
     <li>Bandcamp– <a href="https://andreeeeaaaaas.bandcamp.com/">andreeeeaaaaas</a></li>
     <li>Soundcloud– <a href="https://soundcloud.com/andreeeeaaaaas">andreeeeaaaaas</a></li>
 </ul>
-<hr>
-
-## Get in contact
-
-<a href="mailto:me@andreasthoma.com">me@andreasthoma.com</a>

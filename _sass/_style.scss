@@ -1,3 +1,4 @@
+//Variables
 $color-primary: hsl(0, 0%, 10%);
 $color-text: hsl(0, 0%, 20%);
 $color-subtext: hsl(0, 0%, 30%);
@@ -8,6 +9,7 @@ $border-radius: 4px;
 $font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
   sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 
+/* Main */
 body {
   box-sizing: content-box;
   font-family: $font-family;
@@ -61,10 +63,6 @@ blockquote {
   }
 }
 
-.muted {
-  color: $color-muted;
-}
-
 hr {
   width: 100%;
   border: 0;
@@ -73,23 +71,91 @@ hr {
   background: $color-border;
 }
 
-h1 {
-  font-size: calc(1.5em + 0.55vw);
-  font-weight: 500;
+/* Classes */
+.subtext {
+  color: $color-subtext;
 }
 
-h2 {
-  font-size: calc(1.2em + 0.55vw);
-  font-weight: 500;
+.caption {
+  font-size: 0.88em;
+  text-align: center;
 }
+
+.muted {
+  color: $color-muted;
+}
+
+.callout {
+  padding: 2em 1em; 
+  background: #f5f7ff; 
+  border-radius: 8px;
+  font-size: 0.88em;
+}
+
+/* Headings */
+h1,
+h2,
 h3,
 h4,
 h5,
 h6 {
   line-height: 1.3;
-  font-weight: 500;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+h1 { 
+  font-weight: 500;
+  font-size: 2em;
+  font-size: calc(1.35em + 0.55vw);
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  margin-top: 1.5em;
+  margin-bottom: 0.25em;
+}
+h2 {
+  font-weight: 500;
+  font-size: 1.4em;
+  font-size: calc(1em + 0.2vw);
+  letter-spacing: -0.015em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+h3 { 
+  font-weight: 500;
+  font-size: 1.2em;
+  font-size: 1em;
+  line-height: 1.3;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+h4 { 
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.3; 
+  margin-top: 1em;
+}
+h5 {
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  letter-spacing: 0.05em;
+  font-size: 1.4rem;
+}
+
+content {
+  h2 {
+    margin-top: 2em;
+  }
+  h1 + h2,
+  h2 + h3 {
+    margin-top: 1em;
+  }
+  h3 {
+    margin-top: 1.5em;
+  }
 }
 
 // This has potential to be tidied up, especially the nav-link
